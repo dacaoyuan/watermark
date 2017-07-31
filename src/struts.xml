@@ -10,7 +10,8 @@
     <constant name="struts.i18n.encoding" value="UTF-8"/>
     <constant name="struts.multipart.maxSize" value="1073741824"/>
 
-    <!--设置上传文件的临时文件夹-->
+    <!--test设置上传文件的临时文件夹-->
+    
     <constant name="struts.multipart.saveDir" value="/tmpUpload"/>
 
     <package name="default" extends="struts-default">
